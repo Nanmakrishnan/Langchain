@@ -1,0 +1,13 @@
+[project]
+name = "langchain-course"
+version = "0.1.0"
+description = "Learning LangChain"
+requires-python = ">=3.10"
+
+dependencies = [
+    "langchain",
+    "langchain-core",
+    "langchain-groq",
+    "langchain-ollama",
+    "python-dotenv"
+]
