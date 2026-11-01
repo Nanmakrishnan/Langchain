@@ -5,9 +5,15 @@ description = "Learning LangChain"
 requires-python = ">=3.10"
 
 dependencies = [
-    "langchain",
-    "langchain-core",
-    "langchain-groq",
-    "langchain-ollama",
-    "python-dotenv"
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "langchain>=0.3.27",
+    "langchain-classic>=1.0.0",
+    "langchain-openai>=0.3.31",
+    "langchain-pinecone>=0.2.11",
+    "langchain-unstructured>=1.0.1",
+    "langchainhub>=0.1.21",
+    "python-dotenv>=1.1.1",
+    "unstructured>=0.23.1",
+
 ]
